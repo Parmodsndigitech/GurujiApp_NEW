@@ -21,6 +21,52 @@ APIRequest(
         setSaveAllTruckList(SavetruckNumbers);
         // console.log('parmod.....',res?.data)
       },
-
 // fllter **************************************** END
+
+
+
+
+
+
+
+
+//   npm install sp-react-native-in-app-updates    *************************************** Package......
+  //    Update App on Playsore *************************************** START
+      // HomeScreen.js or App.js
+import React, { useEffect } from 'react';
+import { View, Text } from 'react-native';
+import SpInAppUpdates, { IAUUpdateKind } from 'sp-react-native-in-app-updates';
+
+const HomeScreen = () => {
+  useEffect(() => {
+    const checkUpdate = async () => {
+      const inAppUpdates = new SpInAppUpdates(true); // true = production, false = debug
+
+      try {
+        const result = await inAppUpdates.checkNeedsUpdate();
+
+        if (result.shouldUpdate) {
+          // Choose update type
+          await inAppUpdates.startUpdate({
+            updateType: IAUUpdateKind.FLEXIBLE, // or IMMEDIATE
+          });
+        }
+      } catch (error) {
+        console.log('Update check failed:', error);
+      }
+    };
+
+    checkUpdate();
+  }, []);
+
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Welcome to My App</Text>
+    </View>
+  );
+};
+
+export default HomeScreen;
+  //    Update App on Playsore *************************************** END
+
   
