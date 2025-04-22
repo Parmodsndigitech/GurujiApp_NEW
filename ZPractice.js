@@ -6,3 +6,21 @@ npx react-native bundle --platform android --dev false --entry-file index.js --b
 
 
 ./gradlew assembleRelease
+
+
+
+
+// fllter **************************************** START
+APIRequest(
+      config,
+      (res) => {
+        const approvedTrucks = res?.data?.filter(
+          (truck) => truck.status === "approved"
+        );
+        const SavetruckNumbers = approvedTrucks.map((truck) => truck.truckNumber);
+        setSaveAllTruckList(SavetruckNumbers);
+        // console.log('parmod.....',res?.data)
+      },
+
+// fllter **************************************** END
+  
