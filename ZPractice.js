@@ -1,6 +1,13 @@
 // apple developer account kese banye 
 // keytool -list -v -keystore bdrlJksFile.jks
 
+netstat -ano | findstr :8081
+taskkill /PID 1234 /F
+
+
+
+
+
 npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
 ./gradlew assembleDebug
 
