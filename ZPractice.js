@@ -1,6 +1,9 @@
 // apple developer account kese banye 
 // keytool -list -v -keystore bdrlJksFile.jks
 
+ https://play.google.com/store/apps/details?id=com.guruji.shreeramkatha
+// APp Check karooo 
+
 netstat -ano | findstr :8081
 taskkill /PID 1234 /F
 
