@@ -18,7 +18,7 @@ npx react-native bundle --platform android --dev false --entry-file index.js --b
 
 
 ./gradlew assembleRelease
-
+ android/app/build/outputs/bundle/release/app-release.aab
 .abb  file 
 
 cd android
