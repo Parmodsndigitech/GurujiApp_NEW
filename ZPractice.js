@@ -180,4 +180,222 @@ Main final optimized code de deta hoon uske hisaab se 💯
 
   //    Update App on Playsore *************************************** END
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export const SPLASH_IMAGES = {
+  image1: require('../assets/images/splash/1.png'),
+  image2: require('../assets/images/splash/2.png'),
+  image3: require('../assets/images/splash/3.png'),
+  image4: require('../assets/images/splash/4.png'),
+
+  splash_1: [
+    require('../assets/images/splash/icon_1.png'),
+    require('../assets/images/splash/icon_2.png'),
+    require('../assets/images/splash/icon_3.png'),
+    require('../assets/images/splash/icon_4.png'),
+    require('../assets/images/splash/icon_5.png'),
+  ],
+};
+
+export const Gif_IMG = {
+  //  require('../assets/images/loaderg.gif'),
+  loadergGif: require('../assets/images/loaderg.gif'),
+};
+export const avatar = {
+  AVATAR_01: require('../assets/images/avatar/avatar_01.png'),
+  AVATAR_02: require('../assets/images/avatar/avatar_02.png'),
+  AVATAR_03: require('../assets/images/avatar/avatar_03.png'),
+  AVATAR_04: require('../assets/images/avatar/avatar_04.png'),
+  AVATAR_05: require('../assets/images/avatar/avatar_05.png'),
+};
+
+export const LOGO = {
+  logo_20_20: require('../assets/logo/logo.png'),
+  logo_40_40: require('../assets/logo/logo_40_X_40.png'),
+  full_logo: require('../assets/logo/full_logo.png'),
+};
+
+export const VECTOR = {};
+
+export const IMAGES = {
+  Ellipse_Gradient_Bg: require('../assets/images/Ellipse_Gradient_Bg.png'),
+  Line_Gradient: require('../assets/images/Line_Gradient.png'),
+
+  Article_Big_Image: require('../assets/images/dummy/Article_Big_Image.png'),
+  Article_Small_Image: require('../assets/images/dummy/Article_Small_Image.png'),
+  Foreground_Image: require('../assets/images/dummy/Foreground_Image.png'),
+  TIMER_BG: require('../assets/images/background/timer_bg.png'),
+  SEARCH_IMG: require('../assets/images/background/search01.png'),
+};
+
+export const ICONS = {
+  AVOCADO: require('../assets/images/icons/icon_avocado.png'),
+  DONUT: require('../assets/images/icons/icon_donut.png'),
+  GLASS: require('../assets/images/icons/icon_glass.png'),
+  subscriptionImg: require('../assets/images/icons/subscriptionImg.png'),
+  arrowLeftIcon: require('../assets/images/icons/arrowLeftIcon.png'),
+  arrowRightIcon: require('../assets/images/icons/arrowRightIcon.png'),
+
+  DIVIDER_LINE: require('../assets/images/icons/dividerLine.png'),
+  GOOGLE: require('../assets/images/icons/google.png'),
+  FACEBOOK: require('../assets/images/icons/facebook.png'),
+  APPLE: require('../assets/images/icons/apple.png'),
+
+  BACK: require('../assets/images/icons/back.png'),
+  // Gender
+  MALE_ICON: require('../assets/images/gender/male.png'),
+  FEMALE_ICON: require('../assets/images/gender/female.png'),
+  OTHER_ICON: require('../assets/images/gender/other.png'),
+  STAR_ICON: require('../assets/images/icons/star.png'),
+  PROFILE_PIC: require('../assets/images/icons/ProfilePic.png'),
+  EDIT_PENCIL: require('../assets/images/icons/Edit_Pencil.png'),
+  // close icon
+  CLOSE_ICON: require('../assets/images/icons/close_icon.png'),
+
+  // Water
+  WATER_DROP_UNFILLED_ICON: require('../assets/images/onboarding/water/water_bg.png'),
+  WATER_DROP_FILLED_ICON: require('../assets/images/onboarding/water/water_fill.png'),
+
+  // Arrow
+  ARROW_POINTER: require('../assets/images/icons/arrow_pointer.png'),
+
+  // Bottom Ruler
+  BOTTOM_RULER: require('../assets/images/icons/bottom_ruler.png'),
+  // Pointer
+  RULER_POINTER: require('../assets/images/icons/ruler_pointer.png'),
+
+  // VERTICAL_RULER
+  VERTICAL_RULER: require('../assets/images/icons/vertical_ruler.png'),
+
+  // Membership
+  HAND: require('../assets/images/onboarding/completePayment/hand.png'),
+  RED_STAR: require('../assets/images/onboarding/completePayment/red_star.png'),
+  GREEN_STAR: require('../assets/images/onboarding/completePayment/green_star.png'),
+  YELLOW_STAR: require('../assets/images/onboarding/completePayment/yellow_star.png'),
+
+  PLUS: require('../assets/images/icons/plus.png'),
+  MINUS: require('../assets/images/icons/minus.png'),
+
+  // Water
+  UN_FILL_WATER_GLASS: require('../assets/images/icons/un_fill_glass.png'),
+  FILL_WATER_GLASS: require('../assets/images/icons/fill_glass.png'),
+  Water_Next: require('../assets/images/icons/water_next.png'),
+
+  // Arrow
+  CHEVRON_LEFT: require('../assets/images/icons/Chevron_Arrow_Left.png'),
+  CHEVRON_RIGHT: require('../assets/images/icons/Chevron_Arrow_Right.png'),
+
+  ARROW_RIGHT: require('../assets/images/icons/arrow_right.png'),
+
+  // Diagnosed
+  Stethoscope: require('../assets/images/icons/stethoscope.png'),
+
+  // target
+  Target: require('../assets/images/icons/target.png'),
+
+  // Calendar
+  Calender_Arrow: require('../assets/images/icons/calender_arrow_btn.png'),
+
+  Tick_Right: require('../assets/images/icons/tick_right.png'),
+
+  // Settings
+  DELETE: require('../assets/images/icons/icon_delete.png'),
+  LOGOUT: require('../assets/images/icons/icon_logout.png'),
+
+  LOGOUT_MODEL_SIMPLE: require('../assets/images/icons/logout_model_simbel.png'),
+
+  WATER_DROP_ICON: require('../assets/images/icons/WaterDropIcon.png'),
+};
+
+export const DEVICE_ICON = {
+  HealthApple: require('../assets/images/device/HealthApple.png'),
+  HealthFitBit: require('../assets/images/device/HealthFitBit.png'),
+  HealthGoogle: require('../assets/images/device/HealthGoogle.png'),
+};
+
+export const BACKGROUND_IMAGE = {
+  ORANGE_GRADIENT: require('../assets/images/background/background_orange_gradient.png'),
+};
+
+export const MENU_ICON = {
+  Home: require('../assets/images/MenuIcon/Menu_Home.png'),
+  HomeActive: require('../assets/images/MenuIcon/Menu_Home_Active.png'),
+
+  Update: require('../assets/images/MenuIcon/Menu_Update.png'),
+  UpdateActive: require('../assets/images/MenuIcon/Menu_Update_Active.png'),
+
+  Explore: require('../assets/images/MenuIcon/Menu_Explore.png'),
+  ExploreActive: require('../assets/images/MenuIcon/Menu_Explore_Active.png'),
+
+  PROFILE_Menu: require('../assets/images/MenuIcon/profile_icon.png'),
+
+  Setting: require('../assets/images/MenuIcon/SettingIcon.png'),
+
+  Weight: require('../assets/images/MenuIcon/Weight_Icon.png'),
+  Activity: require('../assets/images/MenuIcon/Activity_Icon.png'),
+  Sleep: require('../assets/images/MenuIcon/Sleep_Icon.png'),
+  Mood: require('../assets/images/MenuIcon/Mood_Icon.png'),
+};
+
+export const MOOD = {
+  Smile: require('../assets/images/mood/smile.png'),
+
+  VERY_SAD: require('../assets/images/mood/mood_very_sad.png'),
+  SAD: require('../assets/images/mood/mood_sad.png'),
+  ANGRY: require('../assets/images/mood/mood_angry.png'),
+  GOOD: require('../assets/images/mood/mood_good.png'),
+};
+
+export const GRAPH = {
+  // SCIENCE_BASED_APPROACH: require('../assets/images/graph/Graph.png'),
+  SCIENCE_BASED_APPROACH: require('../assets/images/graph/Graph_Change.png'),
+
+  Straight_lines: require('../assets/images/onboarding/membership/Straight_lines.png'),
+  Graph: require('../assets/images/onboarding/membership/graph.png'),
+  Graph_line: require('../assets/images/onboarding/membership/graph_line.png'),
+};
+
+export const ANIMATIONS = {
+  FIRE: require('../assets/lottie/fire.json'),
+};
+
+export const DUMMY_IMG = {
+  challengeDymmy01: require('../assets/images/dummy/challengeDymmy01.png'),
+  challengeDymmy02: require('../assets/images/dummy/challengeDymmy02.png'),
+  challengeDymmy03: require('../assets/images/dummy/challengeDymmy03.png'),
+  challengeDymmy04: require('../assets/images/dummy/challengeDymmy04.png'),
+  fastingWeightDummy01: require('../assets/images/dummy/fastingWeightDummy01.png'),
+  fastingWeightDummy02: require('../assets/images/dummy/fastingWeightDummy02.png'),
+  fastingWeightDummy03: require('../assets/images/dummy/fastingWeightDummy03.png'),
+  fastingWeightDummy04: require('../assets/images/dummy/fastingWeightDummy04.png'),
+};
+
+
   
