@@ -1,6 +1,16 @@
 // apple developer account kese banye 
 // keytool -list -v -keystore bdrlJksFile.jks
 
+<TextInput
+  style={{ width: '80%', marginLeft: 10, fontSize: 15, color: '#000' }}
+  placeholder='Enter Pin Code / Area Name'
+  placeholderTextColor="#000"
+  keyboardType='number-pad'
+  maxLength={6}
+  onChangeText={(text) => setPincode(text.replace(/[^0-9]/g, ''))}
+  value={pincode}
+/>
+
  https://play.google.com/store/apps/details?id=com.guruji.shreeramkatha
 // APp Check karooo 
 
