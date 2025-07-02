@@ -192,6 +192,68 @@ Main final optimized code de deta hoon uske hisaab se 💯
 
 
 
+// ####################      Clean storage and clear Chche           #################### 
+
+
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+const clearAppData = async () => {
+  try {
+    await AsyncStorage.clear();
+    console.log('App storage cleared!');
+  } catch (e) {
+    console.error('Failed to clear app data.', e);
+  }
+};
+
+
+// yyyyhufufnjfnfejw ------------------------
+import RNFS from 'react-native-fs';
+const clearCache = async () => {
+  const cacheDir = RNFS.CachesDirectoryPath;
+  try {
+    const files = await RNFS.readDir(cacheDir);
+    for (const file of files) {
+      await RNFS.unlink(file.path);
+    }
+    console.log('Cache cleared!');
+  } catch (e) {
+    console.log('Error clearing cache:', e);
+  }
+};
+
+
+
+import * as Keychain from 'react-native-keychain';
+
+await Keychain.resetGenericPassword();
+
+
+
+
+
+
+<Button
+  title="Reset App"
+  onPress={async () => {
+    await clearAppData();
+    await clearCache();
+    // Optionally: Restart the app
+  }}
+/>
+
+
+
+
+
+
+    import RNRestart from 'react-native-restart';
+RNRestart.Restart();
+
+
+
+############################### 
+
 
 
 
