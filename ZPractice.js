@@ -1,6 +1,29 @@
 // apple developer account kese banye 
 // keytool -list -v -keystore bdrlJksFile.jks
 
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+
+eval "$(rbenv init -)"
+eval "$(rbenv init - zsh)"
+
+export NVM_DIR="$HOME/.nvm"
+  
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+export PATH="$NVM_DIR/versions/node/v20.19.2/bin:$PATH"
+
+
+
+open -a "Android Studio"
+echo $PATH
+
+
+
 <TextInput
   style={{ width: '80%', marginLeft: 10, fontSize: 15, color: '#000' }}
   placeholder='Enter Pin Code / Area Name'
