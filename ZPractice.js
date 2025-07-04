@@ -258,6 +258,45 @@ RNRestart.Restart();
 
 
 
+  const [loading, setLoading] = useState(false);
+
+
+
+
+
+
+ <Modal
+            animationType="fade"
+            transparent={true}
+            visible={loading}
+          >
+            <View
+              style={{
+                marginTop: 240,
+                alignItems: 'center',
+                justifyContent: 'center',
+                backgroundColor: 'rgba(231, 231, 231,0)', backfaceVisibility: 'visible'
+              }}>
+              <ActivityIndicator color={"#6CC417"} size={'large'} />
+              <Text style={{ color: "#6CC417", fontSize: 13, }}>
+                Loading....
+              </Text>
+            </View>
+          </Modal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
