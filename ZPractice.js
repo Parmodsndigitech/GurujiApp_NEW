@@ -22,6 +22,10 @@ export PATH="$NVM_DIR/versions/node/v20.19.2/bin:$PATH"
 open -a "Android Studio"
 echo $PATH
 
+  cd android
+./gradlew bundleRelease
+
+    android/app/build/outputs/bundle/release/app-release.aab
 
 
 <TextInput
