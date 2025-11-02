@@ -535,5 +535,15 @@ export const DUMMY_IMG = {
   fastingWeightDummy04: require('../assets/images/dummy/fastingWeightDummy04.png'),
 };
 
+cd ~/Downloads/Github/PoliceHelp
+rm -rf node_modules
+rm -rf android/.cxx
+rm -rf android/app/.cxx
+rm -rf android/app/build
+rm -rf android/build
+rm -rf android/app/build/generated
+rm -rf ~/.gradle/caches
+rm -rf ~/.gradle/daemon
+npm install
 
   
